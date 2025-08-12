@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg"
+     stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+  <!-- top disk -->
+  <ellipse cx="32" cy="12" rx="24" ry="8" fill="#fff"/>
+  
+  <!-- first cylinder section -->
+  <rect   x="8"  y="12" width="48" height="14" fill="none"/>
+  <ellipse cx="32" cy="26" rx="24" ry="8" fill="#fff"/>
+
+  <!-- second cylinder section -->
+  <rect   x="8"  y="26" width="48" height="14" fill="none"/>
+  <ellipse cx="32" cy="40" rx="24" ry="8" fill="#fff"/>
+
+  <!-- third cylinder section -->
+  <rect   x="8"  y="40" width="48" height="14" fill="none"/>
+  <ellipse cx="32" cy="54" rx="24" ry="8" fill="#fff"/>
+
+</svg>
