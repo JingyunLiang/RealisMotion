@@ -2,7 +2,7 @@
 
 [Jingyun Liang](https://jingyunliang.github.io/), [Jingkai Zhou](https://scholar.google.com/citations?user=80d4v4kAAAAJ), [Shikai Li](https://scholar.google.com/citations?user=WXGg2rgAAAAJ), [Chenjie Cao](https://scholar.google.com/citations?user=1INK-I0AAAAJ), [Lei Sun](https://ahupujr.github.io/), [Yichen Qian](https://scholar.google.com/citations?user=JjTDAOsAAAAJ), [Weihua Chen](https://scholar.google.com/citations?user=KWVlYaMAAAAJ), [Fan Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ)
 
-DaMO Academy, Alibaba
+DAMO Academy, Alibaba
 
 ---
 
@@ -21,6 +21,7 @@ This is the repository that contains the project page for the [RealisMotion webs
 
 ## Code
 <br>
+<img src="assets/logos/RealisMotion.svg" width=100>
 🤗The code is coming soon.🤗
 <br>
 
