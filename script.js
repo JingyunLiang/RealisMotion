@@ -136,10 +136,10 @@ make_site({
      "affiliations": ["DAMO Academy, Alibaba Group", "Hupan Lab", "INSAIT", "Zhejiang University"],
     "footnote": [""],
     "URLs": {
-        "paper": "https://github.com/JingyunLiang/RealisMotion/releases/download/v0.0/RealisMotion.pdf",
+        "paper": "https://arxiv.org/pdf/2508.08588",
         "code": "https://github.com/JingyunLiang/RealisMotion",
 	    "supplementary": "https://github.com/JingyunLiang/RealisMotion/releases/download/v0.0/RealisMotion_supp.pdf",
-        "testset": "https://github.com/JingyunLiang/RealisMotion/releases/download/v0.0/Trajectory100.zip",
+        "testset": "https://huggingface.co/datasets/jingyunliang/Trajectory100",
     },
 })
 //fetch("./paper.json").then(response => response.json).then(json => make_site(json));
