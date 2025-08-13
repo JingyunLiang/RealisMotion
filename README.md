@@ -56,7 +56,6 @@ We disclaim responsibility for user-generated content.
 
 ## Citation
 
-If you find MoVideo useful for your work please cite:
 ```
 @article{liang2025realismotion,
       title={RealisMotion: Decomposed Human Motion Control and Video Generation in the World Space},
