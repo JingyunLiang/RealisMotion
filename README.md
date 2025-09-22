@@ -22,8 +22,8 @@ This is the repository that contains the project page for the [RealisMotion webs
 ## Code
 <br>
 <img src="assets/logos/RealisMotion.svg" width=100>
-🤗The code is available at [https://github.com/JingyunLiang/RealisMotion](https://github.com/JingyunLiang/RealisMotion).🤗
 <br>
+🤗The code is available at https://github.com/JingyunLiang/RealisMotion 🤗
 
 
 ## Gallery
