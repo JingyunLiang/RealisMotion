@@ -1,0 +1,15 @@
+torch
+torchvision
+diffusers==0.33.1
+einops
+transformers
+decord
+accelerate
+ftfy
+scipy
+opencv-python
+roma
+ninja==1.11.1.2
+flash-attn>2.6.3
+xfuser[diffusers,flash-attn]
+hf_transfer
