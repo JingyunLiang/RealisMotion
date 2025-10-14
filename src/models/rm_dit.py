@@ -90,7 +90,7 @@ class ShiftedWanRotaryPosEmbed(WanRotaryPosEmbed):
         return freqs
 
 
-class SelfAttnProcessorSP(WanAttnProcessor2_0):
+class FlashAttnProcessorSP(WanAttnProcessor2_0):
     
     def __call__(
         self,
@@ -145,6 +145,9 @@ class SelfAttnProcessorSP(WanAttnProcessor2_0):
             hidden_states = hidden_states.flatten(2, 3)
             hidden_states = hidden_states.to(original_dtype)
         else:
+            # convert [batch, num_head, length, channel] -> [batch, length, num_head, channel]
+            query, key, value = query.transpose(1, 2), key.transpose(1, 2), value.transpose(1, 2)
+            
             hidden_states = flash_attention(
                 query, key, value, k_lens=seq_lens
             )
@@ -365,9 +368,9 @@ class RealisMotion(ModelMixin, ConfigMixin, PeftAdapterMixin, FromOriginalModelM
         # implementation effort with limited additional speed gains.
         # use FlashAttention3 > FlashAttention2 > PyTorchAttention_2_0
         for block in self.blocks:
-            block.attn1.set_processor(SelfAttnProcessorSP())
+            block.attn1.set_processor(FlashAttnProcessorSP())
         for block in self.controlnet_blocks:
-            block.attn1.set_processor(SelfAttnProcessorSP())
+            block.attn1.set_processor(FlashAttnProcessorSP())
 
 
     def forward(
