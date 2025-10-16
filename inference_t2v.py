@@ -3,7 +3,7 @@ import numpy as np
 import os
 import cv2
 import torch
-import tqdm
+from tqdm import tqdm
 
 from diffusers import AutoencoderKLWan
 from diffusers.utils import export_to_video
