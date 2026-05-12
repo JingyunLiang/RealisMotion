@@ -81,7 +81,7 @@ for (var i = 0; i < sliders.length; i++) set_slider(sliders[i])
 
 // Read JSON
 make_site({
-    "title": "RealisMotion: Decomposed Human Motion Control and Video Generation in the World Space",
+    "title": "RealisMotion: Decomposed Human Motion Control and Video Generation in the World Space (ICML2026)",
     "conference": "",
     "authors": [
         {
